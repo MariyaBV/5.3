@@ -1,0 +1,1118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.page_body
+{
+    min-width: 303px;
+    overflow: auto;
+}
+
+.all-page_body
+{
+    overflow: hidden;
+}
+
+.menu_top_all
+{
+    font-size: 22px;
+    margin: 0 auto;
+    padding-right: 6px;
+}
+
+.menu_top li
+{
+    float:  left;
+    font: 19px "Georgia";
+    display: inline-block;
+}
+
+.clear
+{
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.menu-burger
+{
+    display: none;
+}
+
+.menu_top_about_me
+{
+    background: url(img/about_me_icon_black.png) no-repeat 25px 16px;
+}
+
+.menu_top_about_me:hover
+{
+    background:#15a98c url(img/about_me_icon_white.png) no-repeat 25px 16px;
+}
+
+.menu_top_film
+{
+    background: url(img/video_icon_black.png) no-repeat 25px 16px;
+}
+
+.menu_top_film:hover
+{
+    background: #15a98c url(img/video_icon_white.png) no-repeat 25px 16px;
+}
+
+.menu_top_add_film
+{
+    background: url(img/Layer.png) no-repeat 25px 16px;
+}
+
+.menu_top_add_film:hover
+{
+    background: url(img/Layer_white.png) #15a98c no-repeat 25px 16px;
+}
+
+.menu_top_hobby
+{
+    background: url(img/hobby_icon_black.png) no-repeat 25px 16px;
+}
+
+.menu_top_hobby:hover
+{
+    background: url(img/hobby_icon_white.png) no-repeat 25px 16px #15a98c;
+}
+
+.menu_top a
+{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 13px 20px 13px 47px;
+}
+
+.menu_top_add_film:after,
+.menu_top_add_film:before
+{
+    height: 2px;
+    width: 10px;
+}
+
+.container_background
+{
+    background: url("img/background.png") repeat-x;
+}
+
+.container
+{
+    padding-top: 210px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.left_column
+{
+    float: left;
+    margin-right: 47px;
+}
+
+.left_column_image img
+{
+    height: auto;
+    max-width: 100%;
+}
+
+.left_column_heading
+{
+    font: 600 24px 'Open Sans', sans-serif;
+    color: #45c3aa;
+    text-align: left;
+    padding-top: 4px;
+    line-height: 41px;
+    margin-bottom: 8px;
+}
+
+.left_column_lists
+{
+    margin-top: 30px;
+}
+
+.left_column_list
+{
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.left_column_list li
+{
+    font: 19px "Georgia";
+    color: #646464;
+    line-height: 36px;
+    text-align: left;
+}
+
+.right_column
+{
+    float: left;
+}
+
+.right_column_excerption
+{
+    text-align: left;
+    color: #fff;
+    margin-bottom: 76px;
+}
+
+.right_column_excerption_Konfucii
+{
+    font: normal 28px "Georgia";
+    font-style: italic;
+    line-height: 42px;
+}
+
+.right_column_excerption_signature
+{
+    font: bold 16px 'Open Sans', sans-serif;
+    margin-top: 13px;
+    color: #fff;
+}
+
+.right_column_about_name:after
+{
+    content: "";
+    display: block;
+    background-color: #45c3aa;
+    height: 6px;
+    width: 62px;
+    border-radius: 20%;
+    margin-top: 31px;
+}
+
+.right_column_about_name
+{
+    font: bold 48px 'Open Sans', sans-serif;
+    color: #333;
+    text-align: left;
+    margin-bottom: 45px;
+    line-height: 40px;
+}
+
+.right_column_text_about
+{
+    font: 19px "Georgia";
+    color: #555;
+    line-height: 32px;
+    text-align: left;
+    margin: 0px 0 55px;
+}
+
+.right_column_text_study
+{
+    font: 19px "Georgia";
+    color: #555;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 51px;
+}
+
+.right_column_about_title_study
+{
+    font: normal 36px 'Open Sans', sans-serif;
+    color: #333;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.right_column_mail
+{
+    font: 19px "Georgia";
+    color: #5dbca5;
+    line-height: 15px;
+    margin: 0;
+}
+
+.right_column_mail a
+{
+    color: #5dbca5;
+}
+
+.films,
+.all_films
+{
+    margin: 95px auto 105px;
+    width: 1200px;
+}
+
+.all_films
+{
+    display: none;
+    //max-height: 0;
+    //transition: max-height 2s ease-out;
+    opacity: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.emergence_all_films
+{
+    //max-height: 830px;
+    //transition: max-height 2s ease-in;
+    opacity: 1;
+}
+
+.emergence_all_films_block
+{
+    display: block;
+}
+
+.each-film
+{
+    float: left;
+    list-style-type: none;
+    margin-right: 18px;
+}
+
+.film :last-child,
+.all_film :last-child
+{
+    margin: 0;
+}
+
+.film_image
+{
+    max-width: 100%;
+	width: 234px;
+    height: auto;
+    border-radius: 2%;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.bottom_film_love_film_title
+{
+    font: normal 36px 'Open Sans', sans-serif;
+    color: #333;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.bottom_film_title
+{
+    font: bold 22px 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.bottom_film_text
+{
+    font: 16px "Georgia";
+    color: #555;
+    text-align: left;
+    line-height: 28px;
+}
+
+.button_film
+{
+    background-color: #098d72;
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+    width: 220px;
+    font: 19px "Georgia";
+    color: #f5f5f5;
+    line-height: 50px;
+    margin: 40px auto 105px;
+    text-align: center;
+    text-decoration:none;
+    display: block;
+}
+
+.button_film:hover,
+.button_film:focus
+{
+    cursor: pointer;
+}
+
+.button_send
+{
+    background-color: #098d72;
+    border-radius: 5px;
+    border: 0;
+    width: 220px;
+    font: 19px "Georgia";
+    color: #f5f5f5;
+    line-height: 50px;
+    margin: 0 auto 56px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.button_send:hover,
+.button_send:focus
+{
+    cursor: pointer;
+}
+
+.footer
+{
+    background: #f3f3f3 repeat-x;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    font: 16px "Georgia";
+    color: #555;
+    height: 45px;
+    padding-top: 25px;
+}
+
+.close
+{
+    position: absolute;
+    margin: 30px;
+    z-index: 999;
+    height: 30px;
+    width: 30px;
+    right: 0;
+}
+
+.close:hover,
+.close:focus
+{
+    width: 30px;
+    height: 32px;
+    cursor: pointer;
+    margin: 30px;
+    right: 0;
+}
+
+.close:before,
+.close:after
+{
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #464646;
+    top: 0;
+}
+
+.close:before
+{
+    transform: rotate(45deg);
+}
+
+.close:after
+{
+    transform: rotate(-45deg);
+}
+
+.form_feedback
+{
+    z-index: 999;
+    max-width: 660px;
+    max-height: 905px;
+    display: none;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+}
+
+.form_add_film
+{
+    width: 660px;
+    height: 670px;
+    margin-left: 25%;
+    margin-top: 10%;
+    transition: unset;
+}
+
+.form_feedback:hover
+{
+    cursor: default;
+}
+
+.form_feedback_background
+{
+    background-color: #000000;
+    opacity: 0.749;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: none;
+    z-index: 100;
+}
+
+.form_feedback_background:hover
+{
+    cursor: pointer;
+}
+
+.form_title
+{
+    font: 400 36px 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 39px;
+    margin: 50px 0 36px 60px;
+    background-color: #fff;
+    position: relative;
+    text-align: left;
+}
+
+.form_write_me
+{
+    color: #333;
+    line-height: 32px;
+    display: inline-block;
+    margin: 0 60px 0 60px;
+    font: 20px 'Open Sans', sans-serif;
+    text-align: left;
+    width: 595px;
+}
+
+.window_input
+{
+    width: 521px;
+    height: 43px;
+    font: 20px 'Open Sans', sans-serif;
+    color: #333;
+    padding: 3px 0 0 15px;
+    border: 2px solid #c9c9c9;
+    border-radius: 3px;
+}
+
+.window_input:focus,
+.window_input:hover
+{
+    border: 2px solid #15a98c;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.window_input:hover
+{
+    border: 2px solid #a6a6a6;
+}
+
+.error
+{
+    border: 2px solid #FF0000 !important;
+}
+
+.drop_down
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 539px;
+    height: 49px;
+    font: 20px 'Open Sans', sans-serif;
+    color: #333;
+    background: url(img/check_mark.jpg) no-repeat left;
+    background-position-x: 98%;
+    padding: 3px 0 0 15px;
+    border: 2px solid #c9c9c9;
+    border-radius: 3px;
+}
+
+.drop_down:hover,
+.drop_down:focus
+{
+    border: 2px solid #a6a6a6;
+    cursor: pointer;
+}
+
+.drop_down:focus
+{
+    border: 2px solid #15a98c;
+    background: url(img/check_mark_blue.jpg) no-repeat left;
+    background-position-x: 98%;
+}
+
+select.drop_down option:checked
+{
+    box-shadow: 0 0 10px 100px red inset;
+}
+
+.text_message:hover,
+.text_message:focus
+{
+    border: 2px solid #a6a6a6;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.text_message:focus
+{
+    border: 2px solid #15a98c;
+}
+
+input, textarea, select
+{
+    outline: none;
+}
+
+.mandatory_element:after
+{
+    content: "*";
+    color: red;
+    padding-left: 5px;
+}
+
+.mandatory_element
+{
+    display: block;
+}
+
+.title_window_input
+{
+    display: block;
+}
+
+.title_window_your_message
+{
+    display: block;
+}
+
+.text_message
+{
+    width: 522px;
+    height: 132px;
+    resize: none;
+    padding: 15px 0 0 15px;
+    border: 2px solid #c9c9c9;
+    border-radius: 3px;
+}
+
+.rating_container input
+{
+    height: 16px;
+    margin: 1px 8px 0 0;
+}
+
+.rating_container label
+{
+    margin-right: 27px;
+}
+
+.film_rating_form label
+{
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.indentation_title_input
+{
+    padding-bottom: 28px;
+}
+
+.indentation_title_drop_down
+{
+    padding-bottom: 44px;
+}
+
+.indentation_title_radio
+{
+    padding-bottom: 36px;
+}
+
+.indentation_title_radio_sex
+{
+    padding-bottom:7px;
+}
+
+.window_your_message
+{
+    padding-bottom:41px;
+}
+
+@media screen and (min-width: 1200px)
+{
+    .left_column
+    {
+        width: 33%;
+        margin-right: 60px;
+    }
+    
+    .right_column
+    {
+        width: 57%;
+    }
+    
+    .each-film
+    {
+        width: 23%;
+        margin-bottom: 105px;
+    }
+    
+    .burger
+    {
+        display: none;
+    }
+
+    .menu_top
+    {
+        margin: 0 auto;
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 769px)
+{
+    .films,
+    .all_films
+    {
+        width: 92%;
+    }
+    
+    .left_column
+    {
+        width: 36%;
+    }
+    
+    .right_column
+    {
+        width: 57%;
+    }
+    
+    .each-film
+    {
+        width: 23%;
+        margin-bottom: 105px;
+    }
+    
+    .menu_top
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .container
+    {
+        width: 90%;
+    }
+    
+    .burger
+    {
+        display: none;
+    }
+
+    .form_add_film
+    {
+        margin-left: 15%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 995px)
+{
+    .films,
+    .all_films
+    {
+        width: 95%;
+        float:none;
+        margin-left: 5%;
+    }
+    
+    .each-film
+    {
+        width: 44%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 886px)
+{
+    .right_column_excerption_signature
+    {
+        margin-top: 0;
+    }
+
+    .form_add_film
+    {
+        margin-left: 10%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 858px)
+{
+    .burger-trigger
+    {
+        height: 50px;
+        width: 55px;
+        position: relative;
+    }
+
+    .menu-toggle-switch,
+    .menu-toggle-switch:before,
+    .menu-toggle-switch:after
+    {
+        height: 2px;
+        width: 30px;
+        background-color: #333;
+        margin-top: 10px;
+        position: absolute;
+        z-index: 9999;
+        font: 19px "Georgia";
+    }
+
+    .menu-toggle-switch,
+    .menu-toggle-switch:before,
+    .menu-toggle-switch:after
+    {
+        content: '';
+        position: absolute;
+        display: block;
+    }
+
+    .menu-toggle-switch:after
+    {
+        margin-top: -10px;
+    }
+
+    .menu-toggle-switch.active:before
+    {
+        margin-top: 0px;
+    }
+
+    .menu-toggle-switch
+    {
+        margin: 20px 0 0 10px;
+    }
+
+    .burger-trigger:hover
+    {
+        cursor: pointer;
+    }
+
+    .menu-toggle-switch__x:before,
+    .menu-toggle-switch__x:after
+    {
+        -webkit-transition-duration: 0.3s, 0.3s;
+        transition-duration: 0.3s, 0.3s;
+        -webkit-transition-delay: 0.3s, 0;
+        transition-delay: 0.3s, 0;
+    }
+
+    .menu-toggle-switch__x:before,
+    .menu-toggle-switch__x:after
+    {
+        -webkit-transition-property: top, -webkit-transform;
+        transition-property: top, transform;
+    }
+
+    .menu-toggle-switch__x.active:before
+    {
+        top: 0px;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .menu-toggle-switch__x.active:after
+    {
+        top: 10px;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .menu-toggle-switch__x.active
+    {
+        height: 0;
+    }
+
+    .menu-toggle-switch__x.active:before,
+    .menu-toggle-switch__x.active:after
+    {
+        -webkit-transition-delay: 0, 0.3s;
+        transition-delay: 0, 0.3s;
+    }
+
+    .menu_top
+    {
+        font: 19px "Georgia";
+        text-align: center;
+        list-style-type: none;
+        width: 100%;
+    }
+
+    .menu_top a
+    {
+        text-decoration: none;
+        color: #333;
+    }
+
+    .menu_top_about_me,
+    .menu_top_hobby,
+    .menu_top_film,
+    .menu_top_add_film
+    {
+        width: 583px;
+        margin: 14px 0 14px 0;
+        background: none;
+    }
+
+    .menu_top_about_me:hover,
+    .menu_top_hobby:hover,
+    .menu_top_film:hover,
+    .menu_top_add_film:hover
+    {
+        background: #f0f0f0;
+        cursor: pointer;
+    }
+
+    .menu_burger_form
+    {
+        display: none;
+        position: absolute;
+        width: 583px;
+        height: 800px;
+        background-color: white;
+        z-index: 1000;
+        padding: 0;
+        margin: -13px 0 0 -13px;
+    }
+
+    .menu_burger_form.active
+    {
+        display: block;
+    }
+
+    .menu-burger
+    {
+        display: block;
+        margin: -40px 0 10px 55px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px)
+{
+    .container
+    {
+        width: 90%;
+        padding-top: 55px;
+    }
+    
+    .form_add_film
+    {
+        margin-left: 5%;
+        width: 85%;
+    }
+
+    .films,
+    .all_films
+    {
+        width: 90%;
+        float:none;
+    }
+    
+    .right_column
+    {
+        float: left;
+        width: 100%;
+    }
+    
+    .right_column_excerption
+    {
+        color: #646464;
+    }
+    
+    .each-film
+    {
+        width: 94%
+    }
+
+    .left_column_image
+    {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    
+    .bottom_film_text
+    {
+        padding-bottom: 22px;
+    }
+    
+    .indentation_title_radio
+    {
+        padding-bottom: 95px;
+    }
+    
+    .rating_container label
+    {
+        float: left;
+    }
+    
+    .form_feedback
+    {
+        width: 80%;
+    }
+
+    .window_input
+    {
+        width: 44%;
+    }
+    
+    .drop_down
+    {
+        width: 47%;
+    }
+    
+    .text_message
+    {
+        width: 44%;
+    }
+    
+    .obligatory_field
+    {
+        width: 70%;
+    }
+
+    .menu_top li
+    {
+        width: 100%;
+    }
+
+    .right_column_excerption_signature
+    {
+        color: #646464;
+        margin-top: 13px;
+    }
+}
+
+@media screen and (max-width: 670px)
+{
+    .obligatory_field
+    {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 599px) and (min-width: 300px)
+{
+    .menu_burger_form,
+    .menu_burger_element
+    {
+        width: 303px;
+    }
+    
+    .menu_burger_form
+    {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width : 430px)
+{
+    .obligatory_field
+    {
+        width: 30%;
+    }
+
+    .form_title
+    {
+        width: 72%;
+    }
+}
+
+@media screen and (max-width : 500px)
+{
+    .window_input
+    {
+        width: 33%;
+    }
+
+    .drop_down
+    {
+        width: 36%;
+    }
+
+    .text_message
+    {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 319px)
+{
+    .menu_top
+    {
+        float: left;
+        width: 275px;
+    }
+    
+    .container
+    {
+        width: 90%;
+        padding-top: 55px;
+    }
+    
+    .films,
+    .all_films
+    {
+        width: 92%;
+        float:left;
+        padding-left: 20px;
+    }
+    
+    .right_column
+    {
+        float: left;
+        width: 100%;
+    }
+    
+    .right_column_excerption
+    {
+        color: #646464;
+    }
+    
+    .each-film
+    {
+        width: 94%
+    }
+    
+    .left_column_image
+    {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    
+    .bottom_film_text
+    {
+        padding-bottom: 22px;
+    }
+    
+    .indentation_title_radio
+    {
+        padding-bottom: 95px;
+    }
+
+    .rating_container label
+    {
+        float: left;
+    }
+
+    .burger
+    {
+        display: block;
+    }
+
+    .menu_top
+    {
+        display: none;
+    }
+}
